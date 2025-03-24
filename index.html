@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERA</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="loader">
+        <div class="logo-animation">
+            <div class="logo-container">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Bu9oU0YulF4-Photoroom-HH909oltYWgC2HIjHUYla1XXkaGyNE.png" alt="VERA Logo" style="width: 100%; height: auto;">
+                <div class="logo-text"></div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/VERA-mYYtexVYurvysBLAF719SzCe28t35b.png" alt="VERA Logo" class="logo-img">
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="nav-links">
+                <a href="#home">Главная</a>
+                <a href="#about">О нас</a>
+                <a href="#courses">Курсы</a>
+                <a href="#registration">Записи на курсы</a>
+                <a href="#contact">Контакты</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="page active">
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Откройте силу своего разума</h1>
+                    <p>Онлайн-школа</p>
+                    <a href="#courses" class="btn">Узнать больше</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="registration" class="page">
+            <div class="registration-container">
+                <div class="registration-form">
+                    <h2>Записаться на курс</h2>
+                    <form id="course-registration">
+                        <div class="form-group">
+                            <label for="name">Имя:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Отправить заявку">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/vera_school1?igsh=NmFyZjd3MHN0c3Z3" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://vk.com/vera_school" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-vk"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
